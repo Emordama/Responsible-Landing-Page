@@ -1,0 +1,389 @@
+body {
+    font-family: Bai Jamjuree;
+    color: hsl(201, 11%, 66%);
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 0;
+    width: 100%;
+    vertical-align: top;
+    min-width: 375px;
+    z-index: 50;
+}
+
+h1, h2, h3, h4{
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -200px;
+    vertical-align: top;
+    z-index: 100;
+    align-items: center;
+}
+
+.section-one img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+.div-one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div-one h1 {
+    font-size: 34px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    max-width: 100%;
+
+    text-align: center;
+}
+
+.div-one div
+.section-four div {
+    max-width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+.btn-div {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.btns,
+.btns-2 {
+    padding: 15px 45px;
+    border-radius: 26px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0px 10px 10px hsla(171, 66%, 44%, 0.295);
+    cursor: pointer;
+}
+
+.btns-2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 5px 10px 20px hsla(233, 100%, 69%, 0.3);
+}
+
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-three img {
+    margin-left: -50px;
+}
+
+
+.div-three {
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 50px;
+    vertical-align: top;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 20px;
+}
+
+.div-three p {
+    text-align: left;
+}
+
+.section-two,
+.section-four {
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.section-four img {
+    width: 80%;
+}
+
+.div-two,
+.section-four div {
+    max-width: 50%;
+}
+
+.section-five .sect-five-div {
+    display: flex;
+    max-width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.section-five .col {
+    width: 70%;
+    justify-content: center;
+}
+
+.section-five img {
+    height: 24px;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 10%;
+}
+
+.logo-section img {
+    margin-top: 100px;
+    gap: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(233, 233, 233, 0.562);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    padding: 20px;
+}
+
+.links {
+    max-width: 50%;
+    display: flex;
+    gap: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    font-size: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer-container .footer-logo img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.sm-logo,
+.footer-logo {
+    width: 20%;
+}
+
+.sm-logo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sm-logo img {
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* For mobiles: */
+    .div-one {
+        width: 100%;
+        line-height: 32px;
+    }
+
+    .div-one h1 {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .btn-div {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .section-two {
+        margin-top: 0px;
+    }
+
+    .div-two {
+        margin-top: 70px;
+        max-width: 100%;
+        line-height: 32px;
+    }
+
+    h2 {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    .section-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section-three img {
+        object-fit: contain;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .div-three {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        line-height: 28px;
+    }
+
+    .section-four {
+        max-width: 100%;
+    }
+
+    .section-four div {
+        max-width: 90%;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .section-four img {
+        width: 100%;
+    }
+
+    .section-five .sect-five-div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 16px;   
+    }
+
+    .section-five .col {
+        width: 90%;
+        margin-left: 5%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .col h4 {
+        font-size: 28px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        max-width: 80%;
+        margin-left: 10%;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-container .footer-logo img {
+        width: 60px;
+    }
+
+    .links {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .links a {
+        text-decoration: none;
+        color: hsl(210, 10%, 33%);
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .sm-logo {
+        display: flex;
+        gap: 60px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    .sm-logo img {
+        width: 50px;
+    }
+
+    .logo-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .logo-section img {
+        margin-top: 100px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+}
